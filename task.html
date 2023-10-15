@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Marketplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #010101;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgb(246, 237, 237);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .task-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .task {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .task-title {
+            flex-grow: 1;
+        }
+
+        .task-price {
+            font-weight: bold;
+        }
+
+        .task-description {
+            color: #1f1c1c;
+        }
+
+        .task-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Task Marketplace</h1>
+    </header>
+
+    <div class="container">
+        <ul class="task-list">
+            <li class="task">
+                <div class="task-title">Task 1</div>
+                <div class="task-price">$30</div>
+                <div class="task-description">Collect the data from the cloud platform and perform pre-processing</div>
+                <button class="task-button">Take</button>
+            </li>
+            <li class="task">
+                <div class="task-title">Task 2</div>
+                <div class="task-price">$30</div>
+                <div class="task-description">Execute the above data with pattern recognition.</div>
+                <button class="task-button">Take</button>
+            </li>
+            <li class="task">
+                <div class="task-title">Task 3</div>
+                <div class="task-price">$30</div>
+                <div class="task-description">Perform cluster analysis for the given dataset.</div>
+                <button class="task-button">Take</button>
+            </li>
+            <li class="task">
+                <div class="task-title">Task 4</div>
+                <div class="task-price">$30</div>
+                <div class="task-description">Accomplish automatic summarization for the dataset.</div>
+                <button class="task-button">Take</button>
+            </li>
+            <li class="task">
+                <div class="task-title">Task 5</div>
+                <div class="task-price">$30</div>
+                <div class="task-description">Present the data with visualization.</div>
+                <button class="task-button">Take</button>
+            </li>
+            <li class="task">
+                <div class="task-title">Task 6</div>
+                <div class="task-price">$30</div>
+                <div class="task-description">Evaluate the above summarized data.</div>
+                <button class="task-button">Take</button>
+            </li>
+           
+        </ul>
+    </div>
+</body>
+</html>
